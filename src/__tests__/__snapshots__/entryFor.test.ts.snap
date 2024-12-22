@@ -1,23 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Function CodeUri can be set at the function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -26,17 +26,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -53,23 +53,23 @@ Object {
 `;
 
 exports[`Function CodeUri can be set global or at the function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -78,22 +78,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "CodeUri": "src/my-lambda",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -110,23 +110,23 @@ Object {
 `;
 
 exports[`Function CodeUri can be set globally 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -135,22 +135,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "CodeUri": "src/my-lambda",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -167,23 +167,23 @@ Object {
 `;
 
 exports[`Function Handler can be set at the function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -192,17 +192,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -219,23 +219,23 @@ Object {
 `;
 
 exports[`Function Handler can be set global and at function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -244,22 +244,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Handler": "app.globalHandler",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -276,23 +276,23 @@ Object {
 `;
 
 exports[`Function Handler can be set globally 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -301,22 +301,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Handler": "app.handler",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -333,23 +333,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set at the function to nodejs14.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -358,69 +358,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
-              "CodeUri": "MyLambda",
-              "Handler": "app.handler",
-              "Runtime": "nodejs14.x",
-            },
-            "Type": "AWS::Serverless::Function",
-          },
-        },
-        "Transform": "AWS::Serverless-2016-10-31",
-      },
-      "templateName": "template.yaml",
-    },
-  ],
-}
-`;
-
-exports[`Function Runtime can be set at the function to nodejs14.x 1`] = `
-Object {
-  "entryPoints": Object {
-    "MyLambda": "./src/my-lambda/app",
-  },
-  "launchConfigs": Array [
-    Object {
-      "address": "localhost",
-      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
-      "name": "MyLambda",
-      "outFiles": Array [
-        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
-      ],
-      "port": 5858,
-      "protocol": "inspector",
-      "remoteRoot": "/var/task",
-      "request": "attach",
-      "skipFiles": Array [
-        "/var/runtime/**/*.js",
-        "<node_internals>/**/*.js",
-      ],
-      "sourceMaps": true,
-      "stopOnEntry": false,
-      "type": "node",
-    },
-  ],
-  "samConfigs": Array [
-    Object {
-      "buildRoot": ".aws-sam/build",
-      "entryPointName": "MyLambda",
-      "outFile": "./.aws-sam/build/MyLambda/app.js",
-      "projectKey": "default",
-      "samConfig": Object {
-        "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs14.x",
@@ -437,23 +385,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set at the function to nodejs16.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -462,17 +410,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs16.x",
@@ -489,23 +437,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set at the function to nodejs18.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -514,17 +462,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs18.x",
@@ -541,23 +489,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set at the function to nodejs20.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -566,17 +514,17 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -593,23 +541,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set global and at function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -618,22 +566,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs18.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -650,23 +598,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set globally to nodejs14.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -675,78 +623,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs14.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
-              "CodeUri": "MyLambda",
-              "Handler": "app.handler",
-            },
-            "Type": "AWS::Serverless::Function",
-          },
-        },
-        "Transform": "AWS::Serverless-2016-10-31",
-      },
-      "templateName": "template.yaml",
-    },
-  ],
-}
-`;
-
-exports[`Function Runtime can be set globally to nodejs14.x 1`] = `
-Object {
-  "entryPoints": Object {
-    "MyLambda": "./src/my-lambda/app",
-  },
-  "launchConfigs": Array [
-    Object {
-      "address": "localhost",
-      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
-      "name": "MyLambda",
-      "outFiles": Array [
-        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
-      ],
-      "port": 5858,
-      "protocol": "inspector",
-      "remoteRoot": "/var/task",
-      "request": "attach",
-      "skipFiles": Array [
-        "/var/runtime/**/*.js",
-        "<node_internals>/**/*.js",
-      ],
-      "sourceMaps": true,
-      "stopOnEntry": false,
-      "type": "node",
-    },
-  ],
-  "samConfigs": Array [
-    Object {
-      "buildRoot": ".aws-sam/build",
-      "entryPointName": "MyLambda",
-      "outFile": "./.aws-sam/build/MyLambda/app.js",
-      "projectKey": "default",
-      "samConfig": Object {
-        "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
-            "Runtime": "nodejs14.x",
-          },
-        },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
             },
@@ -762,23 +654,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set globally to nodejs16.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -787,22 +679,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs16.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
             },
@@ -818,23 +710,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set globally to nodejs18.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -843,22 +735,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs18.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
             },
@@ -874,23 +766,23 @@ Object {
 `;
 
 exports[`Function Runtime can be set globally to nodejs20.x 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -899,22 +791,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs20.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
             },
@@ -930,23 +822,23 @@ Object {
 `;
 
 exports[`It ignores non AWS::Serverless::Function resosurces 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -955,20 +847,20 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Resources": Object {
-          "FakeResource": Object {
+        "Resources": {
+          "FakeResource": {
             "Type": "AWS::FakeResource::NahNah",
           },
-          "MyLambda": Object {
-            "Properties": Object {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",
@@ -985,23 +877,23 @@ Object {
 `;
 
 exports[`JS output files uses outFile parameter 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -1010,22 +902,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/index.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs20.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "index.handler",
             },
@@ -1041,23 +933,23 @@ Object {
 `;
 
 exports[`When the template is in a subfolder it should match the happy snapshot 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "xxx#MyLambda": "./xxx/src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/xxx/.aws-sam/build/MyLambda",
       "name": "xxx:MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/xxx/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -1066,22 +958,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": "xxx/.aws-sam/build",
       "entryPointName": "xxx#MyLambda",
       "outFile": "./xxx/.aws-sam/build/MyLambda/app.js",
       "projectKey": "xxx",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs20.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
             },
@@ -1097,23 +989,23 @@ Object {
 `;
 
 exports[`can be set global and at function 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "launchConfigs": Array [
-    Object {
+  "launchConfigs": [
+    {
       "address": "localhost",
       "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
       "name": "MyLambda",
-      "outFiles": Array [
+      "outFiles": [
         "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js",
       ],
       "port": 5858,
       "protocol": "inspector",
       "remoteRoot": "/var/task",
       "request": "attach",
-      "skipFiles": Array [
+      "skipFiles": [
         "/var/runtime/**/*.js",
         "<node_internals>/**/*.js",
       ],
@@ -1122,22 +1014,22 @@ Object {
       "type": "node",
     },
   ],
-  "samConfigs": Array [
-    Object {
+  "samConfigs": [
+    {
       "buildRoot": ".aws-sam/build",
       "entryPointName": "MyLambda",
       "outFile": "./.aws-sam/build/MyLambda/app.js",
       "projectKey": "default",
-      "samConfig": Object {
+      "samConfig": {
         "AWSTemplateFormatVersion": "2010-09-09",
-        "Globals": Object {
-          "Function": Object {
+        "Globals": {
+          "Function": {
             "Runtime": "nodejs18.x",
           },
         },
-        "Resources": Object {
-          "MyLambda": Object {
-            "Properties": Object {
+        "Resources": {
+          "MyLambda": {
+            "Properties": {
               "CodeUri": "MyLambda",
               "Handler": "app.handler",
               "Runtime": "nodejs20.x",

@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Happy path with VS Code debugging disabled 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".aws-sam/build/template.yaml": "AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Globals:
@@ -23,11 +23,11 @@ Resources:
 `;
 
 exports[`Happy path with an output file specified 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".aws-sam/build/template.yaml": "AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Globals:
@@ -41,25 +41,25 @@ Resources:
       Handler: index.handler
 ",
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
@@ -69,11 +69,11 @@ Resources:
 `;
 
 exports[`Happy path with default constructor works 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".aws-sam/build/template.yaml": "AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Globals:
@@ -87,25 +87,25 @@ Resources:
       Handler: app.handler
 ",
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
@@ -115,11 +115,11 @@ Resources:
 `;
 
 exports[`Happy path with empty options in the constructor works 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".aws-sam/build/template.yaml": "AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Globals:
@@ -133,25 +133,25 @@ Resources:
       Handler: app.handler
 ",
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
@@ -161,11 +161,11 @@ Resources:
 `;
 
 exports[`Happy path with empty options in the constructor works and an existing .vscode folder 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "MyLambda": "./src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".aws-sam/build/template.yaml": "AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Globals:
@@ -179,25 +179,25 @@ Resources:
       Handler: app.handler
 ",
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
@@ -207,51 +207,51 @@ Resources:
 `;
 
 exports[`Happy path with multiple projects and different template names works 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "a#MyLambda": "./project-a/src/my-lambda/app",
     "b#MyLambda": "./project-b/src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"a:MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/project-a/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/project-a/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "a:MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/project-a/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/project-a/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     },
     {
-      \\"name\\": \\"b:MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/project-b/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/project-b/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "b:MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/project-b/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/project-b/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
@@ -285,51 +285,51 @@ Resources:
 `;
 
 exports[`Happy path with multiple projects works 1`] = `
-Object {
-  "entryPoints": Object {
+{
+  "entryPoints": {
     "a#MyLambda": "./project-a/src/my-lambda/app",
     "b#MyLambda": "./project-b/src/my-lambda/app",
   },
-  "files": Object {
+  "files": {
     ".vscode/launch.json": "{
-  \\"version\\": \\"0.2.0\\",
-  \\"configurations\\": [
+  "version": "0.2.0",
+  "configurations": [
     {
-      \\"name\\": \\"a:MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/project-a/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/project-a/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "a:MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/project-a/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/project-a/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     },
     {
-      \\"name\\": \\"b:MyLambda\\",
-      \\"type\\": \\"node\\",
-      \\"request\\": \\"attach\\",
-      \\"address\\": \\"localhost\\",
-      \\"port\\": 5858,
-      \\"localRoot\\": \\"\${workspaceFolder}/project-b/.aws-sam/build/MyLambda\\",
-      \\"remoteRoot\\": \\"/var/task\\",
-      \\"protocol\\": \\"inspector\\",
-      \\"stopOnEntry\\": false,
-      \\"outFiles\\": [
-        \\"\${workspaceFolder}/project-b/.aws-sam/build/MyLambda/**/*.js\\"
+      "name": "b:MyLambda",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 5858,
+      "localRoot": "\${workspaceFolder}/project-b/.aws-sam/build/MyLambda",
+      "remoteRoot": "/var/task",
+      "protocol": "inspector",
+      "stopOnEntry": false,
+      "outFiles": [
+        "\${workspaceFolder}/project-b/.aws-sam/build/MyLambda/**/*.js"
       ],
-      \\"sourceMaps\\": true,
-      \\"skipFiles\\": [
-        \\"/var/runtime/**/*.js\\",
-        \\"<node_internals>/**/*.js\\"
+      "sourceMaps": true,
+      "skipFiles": [
+        "/var/runtime/**/*.js",
+        "<node_internals>/**/*.js"
       ]
     }
   ]
