@@ -190,9 +190,9 @@ class AwsSamPlugin {
         }
 
         // Check the runtime is supported
-        if (!["nodejx18.x", "nodejx20.x", "nodejx18.x"].includes(properties.Runtime ?? defaultRuntime)) {
+        if (!["nodejs18.x", "nodejs20.x", "nodejs22.x"].includes(properties.Runtime ?? defaultRuntime)) {
           throw new Error(
-            `${resourceKey} has an unsupport Runtime. Must be nodejx18.x, nodejx20.x or nodejx18.x`
+            `${resourceKey} has an unsupport Runtime. Must be nodejs18.x, nodejs20.x or nodejs22.x`
           );
         }
 
